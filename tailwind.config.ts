@@ -57,6 +57,25 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Tactical Alert System
+        alert: {
+          critical: "hsl(var(--alert-critical))",
+          warning: "hsl(var(--alert-warning))",
+          info: "hsl(var(--alert-info))",
+          success: "hsl(var(--alert-success))",
+        },
+        // Status Indicators
+        status: {
+          active: "hsl(var(--status-active))",
+          standby: "hsl(var(--status-standby))",
+          offline: "hsl(var(--status-offline))",
+          critical: "hsl(var(--status-critical))",
+        },
+        // Surveillance Grid
+        grid: {
+          primary: "hsl(var(--grid-primary))",
+          secondary: "hsl(var(--grid-secondary))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
